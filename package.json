@@ -1,13 +1,22 @@
 {
-  "name": "eslint-required-type-arguments",
+  "name": "eslint-plugin-jm",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Eslint plugin with custom rules",
+  "main": "eslint-plugin-jm.js",
+  "peerDependencies": {
+    "eslint": ">=8.0.0",
+    "@typescript-eslint/parser": ">=6.0.0"
+  },
   "scripts": {
     "test": "node required-type-arguments.test.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "typescript-eslint"
+  ],
+  "author": "Justin Mancherje",
   "license": "ISC",
   "devDependencies": {
     "@typescript-eslint/parser": "^6.17.0",
